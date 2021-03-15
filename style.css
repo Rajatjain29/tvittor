@@ -1,0 +1,87 @@
+.cover{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 10px 30px -10px rgb(0,0,0,0.3);
+}
+
+#left{
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  background-image: url(https://help.twitter.com/content/dam/help-twitter/brand/logo.png);
+  background-repeat: none;
+  background-size: 200%;
+  background-position: center;
+  background-color: rgb(117, 196, 241);
+  display: flex;
+  color: #fff;
+  
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#left i{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 100;
+
+}
+
+h2{
+  /* width: 60%; */
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 auto;
+  
+  
+  
+ 
+}
+
+#right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+#right i{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(52, 143, 228);
+}
+
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input{
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.109);
+}
+
+
+input[type=submit]{
+  background-color: rgb(52, 143, 228);
+  color: #fff;
+}
+
+
+

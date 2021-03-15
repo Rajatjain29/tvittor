@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #back {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+  
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0, 0.3);
+  }
+  
+  .top {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(165deg, rgb(170, 218, 248), rgb(60, 153, 235));
+    backdrop-filter: blur(50px);
+  }
+  
+  .content {
+    padding: 20px 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .more {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    backdrop-filter: blur(50px);
+    background-color: rgb(150, 200, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px -1px rgba(58, 108, 201, 0.767);
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons > i {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+  
+  .more i {
+    box-shadow: 0px 20px 20px -5px rgba(58, 108, 201, 0.883);
+  }
+  
+ button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(134, 189, 236);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 25px 20px -5px rgba(58, 108, 201, 0.931);
+  }
+
+  input[type=submit] {
+    width: 150px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(134, 189, 236);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px -5px rgba(58, 108, 201, 0.329);
+  }
+
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px 0; */
+  }
+  
+  .mid {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+  }
+  
+  .profile-img {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0px 10px 12px -10px rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .profile-img img {
+    width: 80%;
+  } */
+  
+  .profile-img i {
+    font-size: 120px;
+    color: rgb(43, 144, 233);
+  }
+  
+  .mid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 20px;
+  }
+  
+  .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .features h4 {
+    text-decoration: none;
+    color: rgb(134, 189, 236);
+    font-size: 13px;
+    font-weight: 300;
+    margin-right: 100px;
+  }
+  
+  .btm-left {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .user-info h3 {
+    font-weight: 400;
+  }
+  
+  .user-info h4 {
+    margin: 5px 0 40px 0;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(214, 214, 214);
+  }
+  
+  .user-info p:nth-child(3) {
+    color: rgb(134, 189, 236);
+  }
+  
+  .user-info p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(180, 180, 180);
+  }
+  
+  .btm-right {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    color: rgba(58, 108, 201, 0.883);
+  }
+  
+  .divide{
+      height:100%;
+      width: 1px;
+      background-color: rgb(195, 198, 201);
+  }
+
+  .btm-right button{
+    box-shadow: 0px 15px 20px -5px rgba(58, 108, 201, 0.253);
+    margin-left: 600px;
+
+  }
+
+  textarea{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #dadada;
+    margin: 30px 0;
+  }
+  
